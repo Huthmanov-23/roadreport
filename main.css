@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+
+
+
+#anchor {
+	font-size: 35px;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Merriweather', serif;
+	color: black;
+}
+#anchor:hover{
+	color:white;
+
+}
+ul li a {
+	color: black;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+}
+ul li a:hover{
+	color: white;
+	font-weight: bolder;
+}
+h3{
+	position: relative;
+	bottom: 200px;}
+ .bs-example{
+        margin: 20px;
+    }
+    .accordion .fa{
+        margin-right: 0.5rem;
+   }
+   .accordion .fas{
+        margin-right: 0.5rem;
+   }
+   .report_heading h1{
+   	font-size: 42px;
+   	font-family: 'Noto Sans JP', sans-serif;
+   }
+   .report_heading p{
+   	font-size: 20px;
+   	font-family: 'Noto Sans JP', sans-serif;
+   }
+   .icon_name{
+   	font-size: 20px;
+   }
+   .button_name{
+   	font-size: 20px;
+   }
+
+   #footer {
+    background-color: black;
+    color: gold;
+}
+
+#footer a i {
+    font-size: 25px;
+    color: gold;
+}
+
+#footer a i:hover {
+    background: white;
+    transform: scale(1.4);
+    transition: 0.4s ease-in-out;
+    border: 1px solid gold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    padding-left: 8px;
+    color: black;
+    border-color: transparent;
+}
+
+/*REPORT CSS*/
+  h1{
+    font-family: 'Merriweather', serif;
+  }
+  .para3{
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  #text_box2{
+    width: 90%;
+  }
+  .form-error{
+    color: red;
+  }
+  .form-success{
+    color: green;
+  }
+  .input-error{
+    box-shadow: 0 0 5px red;
+  }
+
+/*Find pothole*/
+
+
+
+/*Admin*/
+
+@media (max-width: 480px){
+   #anchor{
+   	font-size: 20px;
+   	text-shadow: 1px 1px 2px black;
+   }
+   #anchor img{
+   		width: 40px;
+   		height: 40px;
+   }
+   h3{
+	position: relative;
+	bottom: 0px;}
+      ul li a{
+      	font-size: 15px;
+      }
+      #footer a i{
+      	margin: 0;
+      	padding:0 
+      }
+      .heading_carousel{
+        font-size: 15px;
+      }
+     
+}
