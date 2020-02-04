@@ -76,16 +76,6 @@
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5 bg-light shadow rounded">
-        <?php
-        if (isset($_GET['p']) && $_GET['p'] == 'passed') {
-         echo "<div class='alert  alert-dismissible fade show alert-info mb-2' role='alert'>";
-          echo "Message Sent";
-          echo "<button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                <span aria-hidden='true'>&times;</span>
-                </button>";
-          echo "</div>";
-        }
-        ?>
         <form id="contactForm" name="sentMessage" method="POST" action="" novalidate="novalidate">
           <div class="form-group">
             <label for="name" class="para3">Your Name</label><span style="color: red"> *</span>
